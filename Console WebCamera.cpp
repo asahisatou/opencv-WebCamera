@@ -23,7 +23,7 @@ int main()
 		cv::Mat img;
 		cap >> img;
 
-		// 必要に応じてここに画像処理
+		// 必要に応じてここに画像処理するよ
 		cv::Mat gray;
 		cv::Mat binary;
 		cv::cvtColor(img, gray, cv::COLOR_BGR2GRAY);
